@@ -22,4 +22,4 @@ class Team(models.Model):
 
 
     def __str__(self):
-        return self.team_name
+        return self.first_name
